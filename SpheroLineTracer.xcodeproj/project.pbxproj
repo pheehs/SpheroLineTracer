@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71B7778E1D8FA8E1005F9670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B7778D1D8FA8E1005F9670 /* main.m */; };
+		71B777911D8FA8E1005F9670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B777901D8FA8E1005F9670 /* AppDelegate.m */; };
+		71B777941D8FA8E1005F9670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B777931D8FA8E1005F9670 /* ViewController.m */; };
+		71B777971D8FA8E1005F9670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B777951D8FA8E1005F9670 /* Main.storyboard */; };
+		71B777991D8FA8E1005F9670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B777981D8FA8E1005F9670 /* Assets.xcassets */; };
+		71B7779C1D8FA8E1005F9670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B7779A1D8FA8E1005F9670 /* LaunchScreen.storyboard */; };
+		71B777A71D8FA8E1005F9670 /* SpheroLineTracerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B777A61D8FA8E1005F9670 /* SpheroLineTracerTests.m */; };
+		71B777B21D8FA8E1005F9670 /* SpheroLineTracerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B777B11D8FA8E1005F9670 /* SpheroLineTracerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71B777A31D8FA8E1005F9670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71B777811D8FA8E1005F9670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71B777881D8FA8E1005F9670;
+			remoteInfo = SpheroLineTracer;
+		};
+		71B777AE1D8FA8E1005F9670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71B777811D8FA8E1005F9670 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71B777881D8FA8E1005F9670;
+			remoteInfo = SpheroLineTracer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71B777891D8FA8E1005F9670 /* SpheroLineTracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpheroLineTracer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B7778D1D8FA8E1005F9670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71B7778F1D8FA8E1005F9670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71B777901D8FA8E1005F9670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71B777921D8FA8E1005F9670 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71B777931D8FA8E1005F9670 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71B777961D8FA8E1005F9670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71B777981D8FA8E1005F9670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71B7779B1D8FA8E1005F9670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71B7779D1D8FA8E1005F9670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B777A21D8FA8E1005F9670 /* SpheroLineTracerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpheroLineTracerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B777A61D8FA8E1005F9670 /* SpheroLineTracerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpheroLineTracerTests.m; sourceTree = "<group>"; };
+		71B777A81D8FA8E1005F9670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B777AD1D8FA8E1005F9670 /* SpheroLineTracerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpheroLineTracerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B777B11D8FA8E1005F9670 /* SpheroLineTracerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpheroLineTracerUITests.m; sourceTree = "<group>"; };
+		71B777B31D8FA8E1005F9670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71B777861D8FA8E1005F9670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B7779F1D8FA8E1005F9670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B777AA1D8FA8E1005F9670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71B777801D8FA8E1005F9670 = {
+			isa = PBXGroup;
+			children = (
+				71B7778B1D8FA8E1005F9670 /* SpheroLineTracer */,
+				71B777A51D8FA8E1005F9670 /* SpheroLineTracerTests */,
+				71B777B01D8FA8E1005F9670 /* SpheroLineTracerUITests */,
+				71B7778A1D8FA8E1005F9670 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71B7778A1D8FA8E1005F9670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71B777891D8FA8E1005F9670 /* SpheroLineTracer.app */,
+				71B777A21D8FA8E1005F9670 /* SpheroLineTracerTests.xctest */,
+				71B777AD1D8FA8E1005F9670 /* SpheroLineTracerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71B7778B1D8FA8E1005F9670 /* SpheroLineTracer */ = {
+			isa = PBXGroup;
+			children = (
+				71B7778F1D8FA8E1005F9670 /* AppDelegate.h */,
+				71B777901D8FA8E1005F9670 /* AppDelegate.m */,
+				71B777921D8FA8E1005F9670 /* ViewController.h */,
+				71B777931D8FA8E1005F9670 /* ViewController.m */,
+				71B777951D8FA8E1005F9670 /* Main.storyboard */,
+				71B777981D8FA8E1005F9670 /* Assets.xcassets */,
+				71B7779A1D8FA8E1005F9670 /* LaunchScreen.storyboard */,
+				71B7779D1D8FA8E1005F9670 /* Info.plist */,
+				71B7778C1D8FA8E1005F9670 /* Supporting Files */,
+			);
+			path = SpheroLineTracer;
+			sourceTree = "<group>";
+		};
+		71B7778C1D8FA8E1005F9670 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71B7778D1D8FA8E1005F9670 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71B777A51D8FA8E1005F9670 /* SpheroLineTracerTests */ = {
+			isa = PBXGroup;
+			children = (
+				71B777A61D8FA8E1005F9670 /* SpheroLineTracerTests.m */,
+				71B777A81D8FA8E1005F9670 /* Info.plist */,
+			);
+			path = SpheroLineTracerTests;
+			sourceTree = "<group>";
+		};
+		71B777B01D8FA8E1005F9670 /* SpheroLineTracerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71B777B11D8FA8E1005F9670 /* SpheroLineTracerUITests.m */,
+				71B777B31D8FA8E1005F9670 /* Info.plist */,
+			);
+			path = SpheroLineTracerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71B777881D8FA8E1005F9670 /* SpheroLineTracer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B777B61D8FA8E1005F9670 /* Build configuration list for PBXNativeTarget "SpheroLineTracer" */;
+			buildPhases = (
+				71B777851D8FA8E1005F9670 /* Sources */,
+				71B777861D8FA8E1005F9670 /* Frameworks */,
+				71B777871D8FA8E1005F9670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpheroLineTracer;
+			productName = SpheroLineTracer;
+			productReference = 71B777891D8FA8E1005F9670 /* SpheroLineTracer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71B777A11D8FA8E1005F9670 /* SpheroLineTracerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B777B91D8FA8E1005F9670 /* Build configuration list for PBXNativeTarget "SpheroLineTracerTests" */;
+			buildPhases = (
+				71B7779E1D8FA8E1005F9670 /* Sources */,
+				71B7779F1D8FA8E1005F9670 /* Frameworks */,
+				71B777A01D8FA8E1005F9670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71B777A41D8FA8E1005F9670 /* PBXTargetDependency */,
+			);
+			name = SpheroLineTracerTests;
+			productName = SpheroLineTracerTests;
+			productReference = 71B777A21D8FA8E1005F9670 /* SpheroLineTracerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71B777AC1D8FA8E1005F9670 /* SpheroLineTracerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71B777BC1D8FA8E1005F9670 /* Build configuration list for PBXNativeTarget "SpheroLineTracerUITests" */;
+			buildPhases = (
+				71B777A91D8FA8E1005F9670 /* Sources */,
+				71B777AA1D8FA8E1005F9670 /* Frameworks */,
+				71B777AB1D8FA8E1005F9670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71B777AF1D8FA8E1005F9670 /* PBXTargetDependency */,
+			);
+			name = SpheroLineTracerUITests;
+			productName = SpheroLineTracerUITests;
+			productReference = 71B777AD1D8FA8E1005F9670 /* SpheroLineTracerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71B777811D8FA8E1005F9670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Robohan;
+				TargetAttributes = {
+					71B777881D8FA8E1005F9670 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V8Z37AB8ZY;
+					};
+					71B777A11D8FA8E1005F9670 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V8Z37AB8ZY;
+						TestTargetID = 71B777881D8FA8E1005F9670;
+					};
+					71B777AC1D8FA8E1005F9670 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V8Z37AB8ZY;
+						TestTargetID = 71B777881D8FA8E1005F9670;
+					};
+				};
+			};
+			buildConfigurationList = 71B777841D8FA8E1005F9670 /* Build configuration list for PBXProject "SpheroLineTracer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71B777801D8FA8E1005F9670;
+			productRefGroup = 71B7778A1D8FA8E1005F9670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71B777881D8FA8E1005F9670 /* SpheroLineTracer */,
+				71B777A11D8FA8E1005F9670 /* SpheroLineTracerTests */,
+				71B777AC1D8FA8E1005F9670 /* SpheroLineTracerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71B777871D8FA8E1005F9670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B7779C1D8FA8E1005F9670 /* LaunchScreen.storyboard in Resources */,
+				71B777991D8FA8E1005F9670 /* Assets.xcassets in Resources */,
+				71B777971D8FA8E1005F9670 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B777A01D8FA8E1005F9670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B777AB1D8FA8E1005F9670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71B777851D8FA8E1005F9670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B777941D8FA8E1005F9670 /* ViewController.m in Sources */,
+				71B777911D8FA8E1005F9670 /* AppDelegate.m in Sources */,
+				71B7778E1D8FA8E1005F9670 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B7779E1D8FA8E1005F9670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B777A71D8FA8E1005F9670 /* SpheroLineTracerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71B777A91D8FA8E1005F9670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71B777B21D8FA8E1005F9670 /* SpheroLineTracerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71B777A41D8FA8E1005F9670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71B777881D8FA8E1005F9670 /* SpheroLineTracer */;
+			targetProxy = 71B777A31D8FA8E1005F9670 /* PBXContainerItemProxy */;
+		};
+		71B777AF1D8FA8E1005F9670 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71B777881D8FA8E1005F9670 /* SpheroLineTracer */;
+			targetProxy = 71B777AE1D8FA8E1005F9670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71B777951D8FA8E1005F9670 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B777961D8FA8E1005F9670 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71B7779A1D8FA8E1005F9670 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71B7779B1D8FA8E1005F9670 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71B777B41D8FA8E1005F9670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71B777B51D8FA8E1005F9670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71B777B71D8FA8E1005F9670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpheroLineTracer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.robohan.SpheroLineTracer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71B777B81D8FA8E1005F9670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SpheroLineTracer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.robohan.SpheroLineTracer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71B777BA1D8FA8E1005F9670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpheroLineTracerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.robohan.SpheroLineTracerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpheroLineTracer.app/SpheroLineTracer";
+			};
+			name = Debug;
+		};
+		71B777BB1D8FA8E1005F9670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpheroLineTracerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.robohan.SpheroLineTracerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpheroLineTracer.app/SpheroLineTracer";
+			};
+			name = Release;
+		};
+		71B777BD1D8FA8E1005F9670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpheroLineTracerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.robohan.SpheroLineTracerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpheroLineTracer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		71B777BE1D8FA8E1005F9670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SpheroLineTracerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.robohan.SpheroLineTracerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpheroLineTracer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71B777841D8FA8E1005F9670 /* Build configuration list for PBXProject "SpheroLineTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B777B41D8FA8E1005F9670 /* Debug */,
+				71B777B51D8FA8E1005F9670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71B777B61D8FA8E1005F9670 /* Build configuration list for PBXNativeTarget "SpheroLineTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B777B71D8FA8E1005F9670 /* Debug */,
+				71B777B81D8FA8E1005F9670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71B777B91D8FA8E1005F9670 /* Build configuration list for PBXNativeTarget "SpheroLineTracerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B777BA1D8FA8E1005F9670 /* Debug */,
+				71B777BB1D8FA8E1005F9670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71B777BC1D8FA8E1005F9670 /* Build configuration list for PBXNativeTarget "SpheroLineTracerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71B777BD1D8FA8E1005F9670 /* Debug */,
+				71B777BE1D8FA8E1005F9670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71B777811D8FA8E1005F9670 /* Project object */;
+}
