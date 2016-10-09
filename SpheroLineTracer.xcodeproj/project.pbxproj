@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71175D5D1D9A447300E7C7AF /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B77AF21D91685A005F9670 /* libGPUImage.a */; };
+		715593571D9ACF870061F4F8 /* GPUImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71B77AF41D91685A005F9670 /* GPUImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		715593591D9AD8EA0061F4F8 /* CircleLineSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 715593581D9AD8EA0061F4F8 /* CircleLineSensor.m */; };
+		7177F11A1D98315F00225679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7177F1191D98315F00225679 /* Main.storyboard */; };
+		7177F11F1D9831CC00225679 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7177F11E1D9831CC00225679 /* CoreMotion.framework */; };
+		7177F1261D98499800225679 /* Main.storyboard in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7177F1191D98315F00225679 /* Main.storyboard */; };
+		7177F1281D984BC400225679 /* RobotKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71B777C01D904F5D005F9670 /* RobotKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		717A6CF21D9252BF006169FE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 717A6CF11D9252BF006169FE /* AVFoundation.framework */; };
 		71B7778E1D8FA8E1005F9670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B7778D1D8FA8E1005F9670 /* main.m */; };
 		71B777911D8FA8E1005F9670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B777901D8FA8E1005F9670 /* AppDelegate.m */; };
 		71B777941D8FA8E1005F9670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B777931D8FA8E1005F9670 /* ViewController.m */; };
-		71B777971D8FA8E1005F9670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B777951D8FA8E1005F9670 /* Main.storyboard */; };
 		71B777991D8FA8E1005F9670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B777981D8FA8E1005F9670 /* Assets.xcassets */; };
 		71B7779C1D8FA8E1005F9670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B7779A1D8FA8E1005F9670 /* LaunchScreen.storyboard */; };
 		71B777A71D8FA8E1005F9670 /* SpheroLineTracerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B777A61D8FA8E1005F9670 /* SpheroLineTracerTests.m */; };
 		71B777B21D8FA8E1005F9670 /* SpheroLineTracerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B777B11D8FA8E1005F9670 /* SpheroLineTracerUITests.m */; };
+		71B777C51D904F5D005F9670 /* RobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B777C01D904F5D005F9670 /* RobotKit.framework */; };
+		71B777C81D904F5D005F9670 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B777C31D904F5D005F9670 /* CoreBluetooth.framework */; };
+		71B777C91D904F5D005F9670 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B777C41D904F5D005F9670 /* ExternalAccessory.framework */; };
+		71B777F61D916496005F9670 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B777EA1D916496005F9670 /* AssetsLibrary.framework */; };
+		71B777F71D916496005F9670 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B777EE1D916496005F9670 /* OpenGLES.framework */; };
+		71B777F81D916496005F9670 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B777EF1D916496005F9670 /* QuartzCore.framework */; };
+		71B777F91D916496005F9670 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B777F01D916496005F9670 /* CoreMedia.framework */; };
+		71B777FA1D916496005F9670 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B777F11D916496005F9670 /* CoreVideo.framework */; };
+		71B777FC1D916496005F9670 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B777F31D916496005F9670 /* UIKit.framework */; };
+		71B777FD1D916496005F9670 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B777F41D916496005F9670 /* Foundation.framework */; };
+		71B777FE1D916496005F9670 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B777F51D916496005F9670 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,16 +50,50 @@
 			remoteGlobalIDString = 71B777881D8FA8E1005F9670;
 			remoteInfo = SpheroLineTracer;
 		};
+		71B77AF11D91685A005F9670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71B77AEB1D916859005F9670 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCF1A33414DDB1EC00852800;
+			remoteInfo = GPUImage;
+		};
+		71B77AF31D91685A005F9670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71B77AEB1D916859005F9670 /* GPUImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BCE209E51943F20C002FEED8;
+			remoteInfo = GPUImageFramework;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7177F1251D98364500225679 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				715593571D9ACF870061F4F8 /* GPUImage.framework in Embed Frameworks */,
+				7177F1261D98499800225679 /* Main.storyboard in Embed Frameworks */,
+				7177F1281D984BC400225679 /* RobotKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		715593581D9AD8EA0061F4F8 /* CircleLineSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLineSensor.m; sourceTree = "<group>"; };
+		7155935A1D9AD8FC0061F4F8 /* CircleLineSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLineSensor.h; sourceTree = "<group>"; };
+		7177F1191D98315F00225679 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7177F11E1D9831CC00225679 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		717A6CF11D9252BF006169FE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVFoundation.framework; sourceTree = "<group>"; };
 		71B777891D8FA8E1005F9670 /* SpheroLineTracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpheroLineTracer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B7778D1D8FA8E1005F9670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71B7778F1D8FA8E1005F9670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		71B777901D8FA8E1005F9670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		71B777921D8FA8E1005F9670 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		71B777931D8FA8E1005F9670 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		71B777961D8FA8E1005F9670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71B777981D8FA8E1005F9670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B7779B1D8FA8E1005F9670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71B7779D1D8FA8E1005F9670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +103,19 @@
 		71B777AD1D8FA8E1005F9670 /* SpheroLineTracerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpheroLineTracerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B777B11D8FA8E1005F9670 /* SpheroLineTracerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpheroLineTracerUITests.m; sourceTree = "<group>"; };
 		71B777B31D8FA8E1005F9670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B777C01D904F5D005F9670 /* RobotKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RobotKit.framework; sourceTree = "<group>"; };
+		71B777C31D904F5D005F9670 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreBluetooth.framework; sourceTree = "<group>"; };
+		71B777C41D904F5D005F9670 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ExternalAccessory.framework; sourceTree = "<group>"; };
+		71B777CB1D904FCE005F9670 /* SpheroLineTracer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SpheroLineTracer.entitlements; sourceTree = "<group>"; };
+		71B777EA1D916496005F9670 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AssetsLibrary.framework; sourceTree = "<group>"; };
+		71B777EE1D916496005F9670 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGLES.framework; sourceTree = "<group>"; };
+		71B777EF1D916496005F9670 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuartzCore.framework; sourceTree = "<group>"; };
+		71B777F01D916496005F9670 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreMedia.framework; sourceTree = "<group>"; };
+		71B777F11D916496005F9670 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreVideo.framework; sourceTree = "<group>"; };
+		71B777F31D916496005F9670 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UIKit.framework; sourceTree = "<group>"; };
+		71B777F41D916496005F9670 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Foundation.framework; sourceTree = "<group>"; };
+		71B777F51D916496005F9670 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreGraphics.framework; sourceTree = "<group>"; };
+		71B77AEB1D916859005F9670 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = ../GPUImage/framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +123,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71175D5D1D9A447300E7C7AF /* libGPUImage.a in Frameworks */,
+				7177F11F1D9831CC00225679 /* CoreMotion.framework in Frameworks */,
+				71B777FE1D916496005F9670 /* CoreGraphics.framework in Frameworks */,
+				71B777F91D916496005F9670 /* CoreMedia.framework in Frameworks */,
+				71B777FC1D916496005F9670 /* UIKit.framework in Frameworks */,
+				71B777C81D904F5D005F9670 /* CoreBluetooth.framework in Frameworks */,
+				71B777F81D916496005F9670 /* QuartzCore.framework in Frameworks */,
+				71B777C91D904F5D005F9670 /* ExternalAccessory.framework in Frameworks */,
+				71B777FD1D916496005F9670 /* Foundation.framework in Frameworks */,
+				71B777FA1D916496005F9670 /* CoreVideo.framework in Frameworks */,
+				71B777C51D904F5D005F9670 /* RobotKit.framework in Frameworks */,
+				71B777F61D916496005F9670 /* AssetsLibrary.framework in Frameworks */,
+				71B777F71D916496005F9670 /* OpenGLES.framework in Frameworks */,
+				717A6CF21D9252BF006169FE /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +160,7 @@
 		71B777801D8FA8E1005F9670 = {
 			isa = PBXGroup;
 			children = (
+				71B777CA1D904F8A005F9670 /* Frameworks */,
 				71B7778B1D8FA8E1005F9670 /* SpheroLineTracer */,
 				71B777A51D8FA8E1005F9670 /* SpheroLineTracerTests */,
 				71B777B01D8FA8E1005F9670 /* SpheroLineTracerUITests */,
@@ -101,12 +181,15 @@
 		71B7778B1D8FA8E1005F9670 /* SpheroLineTracer */ = {
 			isa = PBXGroup;
 			children = (
+				71B777CB1D904FCE005F9670 /* SpheroLineTracer.entitlements */,
 				71B7778F1D8FA8E1005F9670 /* AppDelegate.h */,
 				71B777901D8FA8E1005F9670 /* AppDelegate.m */,
 				71B777921D8FA8E1005F9670 /* ViewController.h */,
 				71B777931D8FA8E1005F9670 /* ViewController.m */,
-				71B777951D8FA8E1005F9670 /* Main.storyboard */,
+				7155935A1D9AD8FC0061F4F8 /* CircleLineSensor.h */,
+				715593581D9AD8EA0061F4F8 /* CircleLineSensor.m */,
 				71B777981D8FA8E1005F9670 /* Assets.xcassets */,
+				7177F1191D98315F00225679 /* Main.storyboard */,
 				71B7779A1D8FA8E1005F9670 /* LaunchScreen.storyboard */,
 				71B7779D1D8FA8E1005F9670 /* Info.plist */,
 				71B7778C1D8FA8E1005F9670 /* Supporting Files */,
@@ -140,6 +223,36 @@
 			path = SpheroLineTracerUITests;
 			sourceTree = "<group>";
 		};
+		71B777CA1D904F8A005F9670 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7177F11E1D9831CC00225679 /* CoreMotion.framework */,
+				717A6CF11D9252BF006169FE /* AVFoundation.framework */,
+				71B77AEB1D916859005F9670 /* GPUImage.xcodeproj */,
+				71B777EA1D916496005F9670 /* AssetsLibrary.framework */,
+				71B777EE1D916496005F9670 /* OpenGLES.framework */,
+				71B777EF1D916496005F9670 /* QuartzCore.framework */,
+				71B777F01D916496005F9670 /* CoreMedia.framework */,
+				71B777F11D916496005F9670 /* CoreVideo.framework */,
+				71B777F31D916496005F9670 /* UIKit.framework */,
+				71B777F41D916496005F9670 /* Foundation.framework */,
+				71B777F51D916496005F9670 /* CoreGraphics.framework */,
+				71B777C01D904F5D005F9670 /* RobotKit.framework */,
+				71B777C31D904F5D005F9670 /* CoreBluetooth.framework */,
+				71B777C41D904F5D005F9670 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71B77AEC1D916859005F9670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71B77AF21D91685A005F9670 /* libGPUImage.a */,
+				71B77AF41D91685A005F9670 /* GPUImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,6 +263,8 @@
 				71B777851D8FA8E1005F9670 /* Sources */,
 				71B777861D8FA8E1005F9670 /* Frameworks */,
 				71B777871D8FA8E1005F9670 /* Resources */,
+				717A6CFA1D925AD0006169FE /* ShellScript */,
+				7177F1251D98364500225679 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,6 +323,11 @@
 					71B777881D8FA8E1005F9670 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = V8Z37AB8ZY;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					71B777A11D8FA8E1005F9670 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -232,6 +352,12 @@
 			mainGroup = 71B777801D8FA8E1005F9670;
 			productRefGroup = 71B7778A1D8FA8E1005F9670 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 71B77AEC1D916859005F9670 /* Products */;
+					ProjectRef = 71B77AEB1D916859005F9670 /* GPUImage.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				71B777881D8FA8E1005F9670 /* SpheroLineTracer */,
@@ -241,14 +367,31 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		71B77AF21D91685A005F9670 /* libGPUImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGPUImage.a;
+			remoteRef = 71B77AF11D91685A005F9670 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		71B77AF41D91685A005F9670 /* GPUImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GPUImage.framework;
+			remoteRef = 71B77AF31D91685A005F9670 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		71B777871D8FA8E1005F9670 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7177F11A1D98315F00225679 /* Main.storyboard in Resources */,
 				71B7779C1D8FA8E1005F9670 /* LaunchScreen.storyboard in Resources */,
 				71B777991D8FA8E1005F9670 /* Assets.xcassets in Resources */,
-				71B777971D8FA8E1005F9670 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,12 +411,29 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		717A6CFA1D925AD0006169FE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		71B777851D8FA8E1005F9670 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				71B777941D8FA8E1005F9670 /* ViewController.m in Sources */,
+				715593591D9AD8EA0061F4F8 /* CircleLineSensor.m in Sources */,
 				71B777911D8FA8E1005F9670 /* AppDelegate.m in Sources */,
 				71B7778E1D8FA8E1005F9670 /* main.m in Sources */,
 			);
@@ -311,14 +471,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		71B777951D8FA8E1005F9670 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71B777961D8FA8E1005F9670 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		71B7779A1D8FA8E1005F9670 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,11 +518,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../GPUImage/framework/Source/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -404,11 +558,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../GPUImage/framework/Source/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -416,10 +572,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SpheroLineTracer/SpheroLineTracer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = SpheroLineTracer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/../Frameworks/";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lc++",
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.robohan.SpheroLineTracer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s x86_64 arm64";
 			};
 			name = Debug;
 		};
@@ -427,10 +603,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SpheroLineTracer/SpheroLineTracer.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = SpheroLineTracer/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/../Frameworks/";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-lc++",
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = net.robohan.SpheroLineTracer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv7 armv7s x86_64 arm64";
 			};
 			name = Release;
 		};
@@ -501,6 +697,7 @@
 				71B777B81D8FA8E1005F9670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71B777B91D8FA8E1005F9670 /* Build configuration list for PBXNativeTarget "SpheroLineTracerTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +706,7 @@
 				71B777BB1D8FA8E1005F9670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71B777BC1D8FA8E1005F9670 /* Build configuration list for PBXNativeTarget "SpheroLineTracerUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +715,7 @@
 				71B777BE1D8FA8E1005F9670 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
